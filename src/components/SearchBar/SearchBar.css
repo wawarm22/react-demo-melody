@@ -1,0 +1,62 @@
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2D2928;
+    width: 100%;
+    gap: 30px; /* ตั้งค่าระยะห่างระหว่างช่อง */
+}
+
+.search-input-group, .date-input-group, .person-room-select {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid #D5AA7F;
+    border-radius: 8px;
+}
+
+.search-input-group, .date-input-group {
+    width: 400px;
+    height: 40px;
+}
+
+.person-room-select {
+    width: 200px;
+    height: 40px;
+}
+
+.search-input, .date-input, .person-room-input {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    flex-grow: 1; /* ให้ input ขยายเต็มพื้นที่ใน container */
+}
+
+.icon {
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.search-icon {
+    color: #2D2928; /* ตั้งสีไอคอน FaSearch เป็นสีดำ */
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #D5AA7F;
+    color: #2D2928;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button:hover {
+    background-color: #382106;
+}
